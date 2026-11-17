@@ -1,0 +1,30 @@
+name: Feature request
+description: Suggest an idea for DentOS
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem are you trying to solve?
+      description: Tell us about your study workflow, especially if you are a dental student.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like to see?
+    validations:
+      required: true
+  - type: dropdown
+    id: phase
+    attributes:
+      label: Related roadmap phase
+      options:
+        - Not sure
+        - 1 Foundation and catalog
+        - 2 Academic resources
+        - 3 Past exams and questions
+        - 4 Study tools and Anki
+        - 5 AI course tutors
+        - 6 Audio and transcription
+        - 7 Personalized learning

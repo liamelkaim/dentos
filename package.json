@@ -1,0 +1,34 @@
+{
+  "name": "dentos",
+  "version": "0.1.0",
+  "description": "Open-source bilingual (FR/EN) study workspace for dental students, starting with Quebec dental schools.",
+  "license": "MIT",
+  "author": "Liam Elkaim",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liamelkaim/dentos.git"
+  },
+  "homepage": "https://github.com/liamelkaim/dentos#readme",
+  "bugs": {
+    "url": "https://github.com/liamelkaim/dentos/issues"
+  },
+  "keywords": [
+    "dental",
+    "education",
+    "study",
+    "quebec",
+    "bilingual",
+    "open-source"
+  ],
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "dev": "node server.mjs",
+    "start": "node server.mjs",
+    "test": "node --test",
+    "check": "node --check server.mjs && node --check public/app.js"
+  }
+}
